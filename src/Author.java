@@ -3,8 +3,8 @@ public class Author {
     private String authorNameLast;
 
     public Author(String nameFerst, String nameLast) {
-        this.authorNameFerst = nameFerst;
-        this.authorNameLast = nameLast;
+        this.setAuthorNameFerst(nameFerst);
+        this.setAuthorNameLast(nameLast);
     }
     public String getAuthorNameFerst() {
         return authorNameFerst;
