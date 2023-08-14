@@ -21,6 +21,8 @@ public class Main {
         System.out.println("book.getName() = " + book.getNameBook());
         System.out.println("book.author.getAuthorNameFerst() = " + book.author.getAuthorNameFerst());
         System.out.println("book.author.getAuthorNameLast() = " + book.author.getAuthorNameLast());
-        System.out.println("author.getAuthorNameLast() = " + author.getAuthorNameLast());
+        author.setAuthorNameFerst("Лев Николвевич");
+        System.out.println("book.author.getAuthorNameFerst() = " + book.author.getAuthorNameFerst());
+        System.out.println("author.getAuthorNameFerst() = " + author.getAuthorNameFerst());
     }
 }
