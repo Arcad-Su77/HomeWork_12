@@ -3,7 +3,7 @@ public class LibBook {
     Author author;
 
     public LibBook(String nameBook, Author author) {
-        this.nameBook = nameBook;
+        this.setNameBook(nameBook);
         this.author = author;
     }
     public String getNameBook() {
